@@ -10,10 +10,4 @@ applications:
   buildpack: https://github.com/cloudfoundry/php-buildpack.git
   env:
     SYMFONY_ENV: prod
-    DOCUMENT_ROOT: web
-    PHP_INI_SCAN_DIR: /home/vcap/app/.bp-config/php/php.d
-    PHP_BINARY: /home/vcap/app/.bp-config/bin/php
-
-    # http_proxy: ...
-    # BP_DEBUG: "True"
 
